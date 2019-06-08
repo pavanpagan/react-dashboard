@@ -23,7 +23,7 @@ class Thirdcard extends Component{
     render()
     {
         return(
-            <div className="card">
+            <li className="card">
                 <label className="thirdcardlabel">PROJECT RISK</label>
                 <div className="piediv">
                  <PieChart width={700} height={300} onMouseEnter={this.onPieEnter}>
@@ -57,7 +57,7 @@ class Thirdcard extends Component{
                     </Row>
                 </div>
                 <div className="linethird"></div>
-            </div>
+            </li>
         )
     }
 }
