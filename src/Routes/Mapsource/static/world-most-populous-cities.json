@@ -1,0 +1,5 @@
+[
+  { "name": "Tokyo", "coordinates": [139.6917,35.6895], "population": 37843000 },
+  { "name": "Jakarta", "coordinates": [106.8650,-6.1751], "population": 30539000 },
+  { "name": "Delhi", "coordinates": [77.1025,28.7041], "population": 37843000 }
+]

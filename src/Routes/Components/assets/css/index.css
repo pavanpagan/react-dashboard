@@ -171,9 +171,9 @@ img {
   margin-top: 50px;
 }
 .line {
-  width: 229px;
+  width: 227px;
   height: 47px;
-  border-top: 1px solid rgb(179, 178, 178);
+  border-top: 1px solid rgb(209, 206, 206);
   position: absolute;
   margin-top: 20px;
 }
@@ -220,6 +220,7 @@ img {
   text-align: center;
   margin-left: 90px;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .Balanced {
   font-size: 0.8em;
@@ -253,16 +254,17 @@ img {
   color:gray;
 }
 .thirdparentfirst{
-  margin-left: 35px;
+  margin-left: 25px;
 }
 .linethird {
-  width: 234px;
+  width: 262px;
   height: 47px;
-  border-top: 1px solid rgb(179, 178, 178);
+  border-top: 1px solid #DADADA;
   position: absolute;
   margin-top: 2px;
   margin-bottom: 5px;
 }
+
 .thirddiv {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -298,7 +300,7 @@ img {
   height: 28px;
   border-radius: 2px;
   background:transparent;
-  border:1px solid gray;
+  border:1px solid rgb(209, 206, 206);
   margin-top: 20px;
   margin-left: 30px;
   color:gray;
@@ -310,7 +312,7 @@ img {
   height: 28px;
   border-radius: 2px;
   background:transparent;
-  border:1px solid gray;
+  border:1px solid rgb(209, 206, 206);
   float: left;
   color:gray;
   font-size: 0.8em;
@@ -325,11 +327,27 @@ img {
 .thirdrow{
   margin-top: 50px;
 }
+.verticalline{
+  border-left: 1px solid rgb(209, 206, 206);
+  height: 50px;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 18px solid transparent;
+  border-bottom: 10px solid transparent;
+
+}
+.basicmap{
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
 body {
   font-family: "ABeeZee", sans-serif;
   background: #f8f8f8;
   user-select: none;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .center-cols > .col {
