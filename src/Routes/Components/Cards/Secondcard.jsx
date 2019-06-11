@@ -12,9 +12,9 @@ import {
   Tooltip
 } from "recharts";
 const options = [
-  { value: "chocolate", label: "Chocolate" },
-  { value: "strawberry", label: "Strawberry" },
-  { value: "vanilla", label: "Vanilla" }
+  { value: "Time1", label: "Time1" },
+  { value: "Time2", label: "Time2" },
+  { value: "Time3", label: "Time3" }
 ];
 const data = [
   {

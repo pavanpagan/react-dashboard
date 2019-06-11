@@ -15,15 +15,15 @@ export default class Tabs extends Component {
       <div>
         <Col sm={1} className="tabSidebar">
           <div className="tabSegments">
-               <Tab  label={home} path="home"/>
+               <Tab  label={home} path="/"/>
            <div className="tabAll">
-                   <Tab label={cutlery} path="takeouts" />
+                   <Tab label={cutlery} path="/" />
            </div>
            <div className="tabAll">
-                   <Tab label={notification} path="foodmenu" />
+                   <Tab label={notification} path="/" />
            </div>
            <div className="tabAll">
-                  <Tab label={fileDirectory} path="orders" />
+                  <Tab label={fileDirectory} path="/" />
            </div>
           </div>
         </Col>

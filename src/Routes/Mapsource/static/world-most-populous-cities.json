@@ -1,5 +1,7 @@
 [
-  { "name": "Tokyo", "coordinates": [139.6917,35.6895], "population": 37843000 },
-  { "name": "Jakarta", "coordinates": [106.8650,-6.1751], "population": 30539000 },
-  { "name": "Delhi", "coordinates": [77.1025,28.7041], "population": 37843000 }
+  { "name": "Japan,South Korea", "coordinates": [120.5869, 20.1751], "population": 37843000,"color":"#E8F637","stroke":"#B0BD16" },
+  { "name": "Europe", "coordinates": [20.8650,40.1751], "population": 130539000,"color":"#8B9EF1","stroke":"#0024C1" },
+  { "name": "North America", "coordinates": [-100.1025,50.7041], "population": 85843000,"color":"#84E3CC","stroke":"#4D9281" },
+  { "name": "Others", "coordinates": [-150.1025,-40.5555], "population": 37843000,"color":"#877B95","stroke":"#30164F" }
+
 ]

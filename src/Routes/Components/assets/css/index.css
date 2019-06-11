@@ -33,6 +33,7 @@
 .headingDiv {
   text-align: left;
   width: 85%;
+
 }
 .headingDiv > h4 {
   margin: 0;
@@ -243,6 +244,7 @@ img {
 .thirdlast {
   color: gray;
   font-size: 0.8em;
+  
 }
 .aws {
   color: black;
@@ -330,6 +332,7 @@ img {
 .verticalline{
   border-left: 1px solid rgb(209, 206, 206);
   height: 50px;
+
 }
 .triangle-right {
 	width: 0;
@@ -343,11 +346,28 @@ img {
   margin-bottom: 100px;
   padding-bottom: 50px;
 }
+.Profit{
+  font-size: 0.8em;
+  color:gray;
+  text-align: center;
+  margin-left: 46%;
+  margin-top: 30px;
+}
+.profitamt{
+  font-size: 1em;
+  color:blue;
+  margin-left: 43%;
+  margin-top: 10px;
+}
+.loginButtonDiv{
+  margin-top: 20px;
+  margin-right: 10px;
+}
 body {
   font-family: "ABeeZee", sans-serif;
   background: #f8f8f8;
   user-select: none;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .center-cols > .col {
@@ -431,7 +451,7 @@ button:focus {
 /*sidebar*/
 .tabContainer.col-xs-11 {
   width: 93% !important;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 25px 10px 50px;
 }
 
 .checkboxes {

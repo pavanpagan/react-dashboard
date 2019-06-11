@@ -16,12 +16,12 @@ import cities from '../static/world-most-populous-cities.json';
 const wrapperStyles = {
   width: "100%",
   maxWidth: 900,
-  height:"100%"
+  height:"100%",
   // margin: "0 auto",
 }
 
 const cityScale = scaleLinear()
-  .domain([0,37843000])
+  .domain([10,39843000])
   .range([1,25])
 let data=cities;
 
@@ -58,11 +58,11 @@ class BasicMap extends Component {
           width={980}
           height={800}
           style={{
-            width: "60%",
+            width: "85%",
             height: "100%",
           }}
           >
-          <ZoomableGroup center={[-10,5]} disablePanning>
+          <ZoomableGroup center={[-6,-5]} disablePanning>
             <Geographies geography={customData}>
               {(geographies, projection) =>
                 geographies.map((geography, i) =>
@@ -102,10 +102,12 @@ class BasicMap extends Component {
                       cx={0}
                       cy={0}
                       r={cityScale(city.population)}
-                      fill="rgba(255,87,34,0.8)"
-                      stroke="#607D8B"
+                      fill={city.color}
+                      stroke={city.stroke}
                       strokeWidth="2"
-                    />
+                      fillOpacity= "0.35"
+                    ></circle>
+                    
                   </Marker>
                 ))
               }
