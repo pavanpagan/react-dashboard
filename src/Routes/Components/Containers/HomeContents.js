@@ -15,7 +15,7 @@ export default class HomeContents extends Component {
             <Header />
           </Row>
           <Row>
-            <Tabs />
+            <Tabs/>
             <Col xs={11} className="tabContainer">
               <div style={{marginLeft:"10px",marginTop:"10px"}}>
                 <Rowone />
@@ -23,9 +23,6 @@ export default class HomeContents extends Component {
               <div style={{marginLeft:"10px",marginTop:"10px"}}>
                 <Rowtwo />
               </div>
-              {/* <div style={{marginLeft:"10px",marginTop:"10px"}}> */}
-                {/* <Second />
-              </div> */}
             </Col>
           </Row>
         </Grid>

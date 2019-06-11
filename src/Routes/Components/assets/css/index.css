@@ -25,7 +25,7 @@
 
 .sidebarTab {
   height: 60px;
-  width: 60px;
+  width: 70px;
   padding: 25px;
   color: #818181;
 }
@@ -334,6 +334,18 @@ img {
   height: 50px;
 
 }
+.verticalline.head{
+  height: 68px;
+}
+.verticalline.heads{
+  height: 68px;
+  padding: 0px;
+  margin-left:320px;
+}
+.notification{
+ margin-top: 20px;
+ margin-left: 150px;
+}
 .triangle-right {
 	width: 0;
 	height: 0;
@@ -362,6 +374,35 @@ img {
 .loginButtonDiv{
   margin-top: 20px;
   margin-right: 10px;
+}
+.names{
+  margin-top: 20px;
+  float: right;
+  margin-right: 10px;
+}
+.profileimage{
+  margin-top: 12px;
+  padding-left: 50px;
+}
+.navbars{
+  margin-top: 12px;
+}
+.appsicon{
+  color: gray;
+}
+.newhouse{
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.newbutton{
+  width:40px;
+  height:40px;
+  background: #a4cbe4;
+  opacity: 0.6;
+  color:rgb(25, 29, 241);
+  border-radius: 2px;
+  border:none;
+  margin-right: 5px;
 }
 body {
   font-family: "ABeeZee", sans-serif;
@@ -423,7 +464,7 @@ button:focus {
   box-shadow: 0 5px 2px rgba(0, 0, 0, 0.05);
 }
 .outerHeadingDiv {
-  padding-left: 0;
+  padding-left: 15px;
 }
 
 .logoutButtonDiv {
