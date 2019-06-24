@@ -1,6 +1,6 @@
 # react-dashboard
 
-#steps
+# steps
 
 $ npm install
 
